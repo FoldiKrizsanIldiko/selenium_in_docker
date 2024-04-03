@@ -26,7 +26,7 @@ services:
       - SE_EVENT_BUS_HOST=selenium-hub
       - SE_EVENT_BUS_PUBLISH_PORT=4442
       - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
-      - SE_VNC_PORT=5906
+      - SE_VNC_PORT=5900
     ports:
       - "5906:5900"
   firefox:
@@ -38,7 +38,7 @@ services:
       - SE_EVENT_BUS_HOST=selenium-hub
       - SE_EVENT_BUS_PUBLISH_PORT=4442
       - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
-      - SE_VNC_PORT=5907
+      - SE_VNC_PORT=5900
     ports:
       - "5907:5900"
 
